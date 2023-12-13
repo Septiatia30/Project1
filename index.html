@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer with Icons Example</title>
+
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy6nx1FEkNfOQqqrsiJ8WPI1aJ1H2tIPOD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <style>
+        .social-icon {
+            font-size: 24px; /* Ukuran ikon disesuaikan */
+            margin-right: 10px; /* Jarak antara ikon */
+        }
+    </style>
+</head>
+<body>
+
+    <footer class="bg-dark text-light py-3">
+        <div class="container">
+            <div class="row">
+                <!-- Instagram Icon -->
+                <div class="col-md-3">
+                    <a href="#" class="text-light">
+                        <i class="bi bi-instagram social-icon"></i> Instagram
+                    </a>
+                </div>
+                <!-- Phone Icon -->
+                <div class="col-md-3">
+                    <i class="bi bi-phone social-icon"></i> Phone: +1 234 567 890
+                </div>
+                <!-- Email Icon -->
+                <div class="col-md-3">
+                    <i class="bi bi-envelope social-icon"></i> Email: yourname@example.com
+                </div>
+                <!-- Facebook Icon -->
+                <div class="col-md-3 text-right">
+                    <a href="#" class="text-light">
+                        <i class="bi bi-facebook social-icon"></i> Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js" integrity="sha384-qZJ3L+9ZiF3gBv4eOv2S7K3smk/cL4q5Hc9flDViymfyFg20FfjNxuEExdLvlJh6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy6nx1FEkNfOQqqrsiJ8WPI1aJ1H2tIPOD" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Data Diri - Toko Online</title>
+    <!-- Sertakan file CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <h2 class="mb-4 text-center"> <img src="logo.jpg" width="100"></h2>
+
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap:</label>
+                        <input type="text" class="form-control" id="nama" name="nama" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Alamat Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Kata Sandi:</label>
+                        <input type="password" class="form-control" id="password" name="password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="alamat">Alamat:</label>
+                        <textarea class="form-control" id="alamat" name="alamat" rows="3" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jenisKelamin">Jenis Kelamin:</label>
+                        <select class="form-control" id="jenisKelamin" name="jenisKelamin" required>
+                            <option value="pria">Pria</option>
+                            <option value="wanita">Wanita</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="setuju" required>
+                        <label class="form-check-label" for="setuju">Saya Setuju dengan Syarat dan Ketentuan</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Daftar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="card">
+          <div class="card-header">Chat</div>
+          <div class="card-body" style="height: 300px; overflow-y: auto;">
+            <div class="message">costumer: Hello ka saya memesan baju seragam apakah bisa di percepat pengirim nya?</div>
+            <div class="message">admin pelangi hijab: Selamat siang ka baik akan segera kami proses ya</div>
+          </div>
+          <div class="card-footer">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Type your message...">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="submit">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+    <!-- Sertakan file JavaScript Bootstrap (Opsional, tetapi dianjurkan) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootsrapp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">  
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#"> <img src="logo.jpg" width="50"></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  
+                  </ol>
+                </nav>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="daftar.html">Daftar</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="profil.html">Tentang kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="form.html">Form</a>
+              </li>
+            </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="keranjang.html">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="badge badge-pill badge-danger">3</span>
+              </a>
+              <a class="navbar-brand" href="chat.html">
+                <i class="fas fa-comments"></i>
+                <span class="badge badge-pill badge-danger">1</span>
+              </a>
+              <a class="navbar-brand" href="notif.html">
+                <i class="fas fa-bell"></i>
+                <span class="badge badge-pill badge-danger">2</span>
+              </a>
+            </nav>
+          
+            <form class="d-flex"  role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Desain tanpa judul.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="gambar3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="jahitorang.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container mt-4">
+        <h2 class="mb-4">Produk</h2>
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="foto01.jpg"card-img-top" alt="Product 1" height="250">
+              <div class="card-body">
+                <h5 class="card-title">Dress Weeding</h5>
+                <p class="card-text">Harga: 500.000</p>
+                <a href="pembelian1.html" class="btn btn-primary">Pesan dan Jahit Sekarang</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="foto2.jpg" class="card-img-top" alt="Product 2" height="250">
+              <div class="card-body">
+                <h5 class="card-title">Jas Formal</h5>
+                <p class="card-text">Harga: 700.000</p>
+                <a href="pembelian2.html" class="btn btn-primary">Pesan dan Jahit Sekarang</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="foto3.jpg" class="card-img-top" alt="Product 3" height="250">
+              <div class="card-body">
+                <h5 class="card-title">Seragam Sekolah</h5>
+                <p class="card-text">Harga: 200.000</p>
+                <a href="pembelian3.html" class="btn btn-primary">Pesan dan Jahit Sekarang</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="foto5.jpg" class="card-img-top" alt="Product 4" height="250">
+              <div class="card-body">
+                <h5 class="card-title">Kebaya Wisuda</h5>
+                <p class="card-text">Harga: 800.000</p>
+                <a href="pembelian4.html" class="btn btn-primary">Pesan dan Jahit Sekarang</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="card">
+              <img src="foto4.jpg" class="card-img-top" alt="Product 5" height="250">
+              <div class="card-body">
+                <h5 class="card-title">Baju Couple</h5>
+                <p class="card-text">Harga: 250.000</p>
+                <a href="pembelian5.html" class="btn btn-primary">Pesan dan Jahit Sekarang</a>
+              </div>
+            </div>
+          </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="foto6.jpg" class="d-block width="200 width="1100" height="500">
+    </div>
+        </div>
+        <div class="container mt-4">
+          <h2 class="mb-4">Promotion</h2>
+          <div class="row">
+        
+           
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="foto8.jpg" class="card-img-top" alt="Promo 1" height="250">
+                <div class="card-body">
+                  <h5 class="card-title">Paket A</h5>
+                  <p class="card-text">Harga: 200.000<br></p>
+                  <a href="detailpromo1.html" class="btn btn-primary">Detail</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="foto10.jpg" class="card-img-top" alt="Promo 2" height="250">
+                <div class="card-body">
+                  <h5 class="card-title">Paket B</h5>
+                  <p class="card-text">Harga: 600.000 <br></p>
+                  <a href="detailpromo2.html" class="btn btn-primary">Detail</a>
+                </div>
+              </div>
+            </div>
+        
+            
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="foto11.jpg" class="card-img-top" alt="Promo 3" height="250">
+                <div class="card-body">
+                  <h5 class="card-title">Paket C</h5>
+                  <p class="card-text">Harga: 800.000<br></p>
+                  <a href="detailpromo3.html" class="btn btn-primary">Detail</a>
+                </div>
+              </div>
+            </div>
+        
+        
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="foto12.jpg" class="card-img-top" alt="Promo 4" height="250">
+                <div class="card-body">
+                  <h5 class="card-title">Paket D</h5>
+                  <p class="card-text">Harga: 750.000<br></p>
+                  <a href="detailpromo4.html" class="btn btn-primary">Detail</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img src="foto9.jpg" class="card-img-top" alt="Promo 5" height="250">
+                <div class="card-body">
+                  <h5 class="card-title">Paket E</h5>
+                  <p class="card-text">Harga: 650.000<br></p>
+                  <a href="detailpromo5.html" class="btn btn-primary">Detail</a>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+      
+          </div>
+          <div class="card-footer">
+          </div>
+          </div>
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+              
+            </div>
+          </div>
+        </div>
+      
+      </div>
+        </div>
+        <br>
+    </div>
+  
+    <center>
+      <iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Kp.%20Sukabakti%20bogor+(Pusat)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.versicherungen.at/cyber-versicherung/'>Hackerversicherung</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=3c39dc60cc87bcf591f1952a2fc06ff73f449d5c'></script>
+      </center>
+
+        <div class="container">
+          <br>
+        </div>
+        <footer class="bg-light text-center py-3">
+          <ul class="list-inline mb-0">
+       <p>Contact Us</p>
+            <li class="list-inline-item"><a href="https://instagram.com/_frdtrf?igshid=MzMyNGUyNmU2YQ==" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com/rfa.frdta" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="https://wa.me/qr/FXB6KCDRSR6BD1" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+          </ul>
+      
+          <div class="mt-3">
+            <p>Email: <a href="mailto:info@example.com">rifafraditasafara@gmail.com</a></p>
+            <p>Phone: +1 234 567 890</p>
+          </div>
+        </footer>     
+      </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+</html>
